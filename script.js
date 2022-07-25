@@ -27,3 +27,16 @@ function operate(num1, operator, num2) {
     }
 
 }
+
+const keypad = document.querySelectorAll(".buttons");
+const display = document.querySelector(".results");
+
+let num1;
+let num2;
+let operator;
+
+for (let i = 0; i < keypad.length; i++) {
+    keypad[i].addEventListener('click', ()=> {
+        
+    });
+}
